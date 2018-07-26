@@ -13,7 +13,6 @@ def loop_iterator(number_of_times)
   while times < number_of_times
     puts phrase
     times += 1
-    break if times == number_of_times
   end
 end
 
